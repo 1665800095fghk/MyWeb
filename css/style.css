@@ -7,8 +7,18 @@ body {
     background-color: #000;
 }
 
+
+
+@media screen and (max-width: 400px) {
+    .title_head {
+        font-size: 40px;
+    }
+}
+
+
+
 .title_head {
-    font-size: 100px;
+    font-size: 80px;
     text-align: center;
     background-image: repeating-linear-gradient(to right, pink, skyblue);
     -webkit-background-clip: text;
@@ -18,10 +28,10 @@ body {
 .main {
     width: 100%;
     min-height: 400px;
-    /* display: flex;
+    display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap; */
+    justify-content: center;
+    flex-wrap: wrap;
     padding: 10px;
 }
 
