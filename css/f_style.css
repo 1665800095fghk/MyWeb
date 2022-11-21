@@ -1,19 +1,9 @@
-body {
-    background-color: #000;
-}
-
-
 .f_button {
-    /* position: absolute;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%; */
     color: skyblue;
     position: relative;
     padding: 1em 2.8em;
     overflow: hidden;
     transition: .3s;
-    margin: 10px;
     background-color: transparent;
 
     border: 2px solid skyblue;
